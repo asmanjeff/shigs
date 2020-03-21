@@ -1,0 +1,2 @@
+# shigs
+shigs is a python module aimed at creating an interactive design tool for engineers.  The inspiration for the name comes from the book, "Shigley's Mechanical engineering design".  The initial module architecture will emulate the content and equations from the chapters, but maybe one day this module will be more like (Shigley + Roark + ...). Weld analysis, bolted joints, fatigue failure, and shaft design principles are just the tip of the iceberg. Pull requests from practicing engineers are welcome. 
