@@ -250,9 +250,9 @@ class StressCalcs():
         self.weld_group = torsion_or_bending_object
         self.tau_prime = 0
     
-    def __repr__:
+    def __repr__(self):
         print(self.weld_group.__class__)
-        self.weld_group.__repr__
+        self.weld_group.__repr__()
         return ''
         
 
@@ -282,7 +282,7 @@ class StressCalcs():
             self.tau_d_prime = M_sum / self.weld_group.I
         elif self.weld_group.J:
             self.tau_d_prime = M_sum / self.weld_group.J
-        print("The secondary shear seen at the centroid is: {} units".format(self.tau_d_prime))
+            print("The moment seen at the centroid is: {} units".format(self.tau_d_prime))
 
     
 
